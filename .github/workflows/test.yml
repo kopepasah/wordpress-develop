@@ -14,6 +14,4 @@ jobs:
     - name: Building...
       run: npm run build
     - name: Testing...
-      run: |
-        grunt test
-        npm run test:e2e
+      run: npm run test:e2e
